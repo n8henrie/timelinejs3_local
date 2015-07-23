@@ -1,0 +1,3 @@
+[submodule "TimelineJS3"]
+	path = TimelineJS3
+	url = git@github.com:NUKnightLab/TimelineJS3.git
