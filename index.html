@@ -1,0 +1,14 @@
+<head>
+    <link rel="stylesheet" href="TimelineJS3/compiled/css/timeline.css">
+</head>
+
+<body> 
+    <div id="timeline-div"></div>
+    <script type="text/javascript" src="TimelineJS3/compiled/js/timeline.js"></script>
+    <script>
+var timeline = new VCO.Timeline('timeline-div', 'data.json');
+window.onresize = function(event) {
+    timeline.updateDisplay();
+}
+    </script>
+</body>
